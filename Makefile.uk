@@ -39,7 +39,7 @@ $(eval $(call addlib_s,libtlsf,$(CONFIG_LIBTLSF)))
 # Sources
 ################################################################################
 LIBTLSF_VERSION=2.4.6
-LIBTLSF_URL=http://wks.gii.upv.es/tlsf/files/src/TLSF-$(LIBTLSF_VERSION).tbz2
+LIBTLSF_URL=https://releases.unikraft.org/mirrors/libs/tlsf/TLSF-$(LIBTLSF_VERSION).tbz2
 LIBTLSF_DIR=TLSF-$(LIBTLSF_VERSION)
 
 LIBTLSF_PATCHDIR=$(LIBTLSF_BASE)/patches
